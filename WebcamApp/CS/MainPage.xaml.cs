@@ -44,10 +44,10 @@ namespace WebCamSample
         private StorageFile recordStorageFile;
         private StorageFile audioFile;
         private readonly string PHOTO_FILE_NAME = "photo.jpg";
-        private readonly string VIDEO_FILE_NAME = "video.mp4";
+        private readonly string VIDEO_FILE_NAME = "video.mp4"; //remove
         private readonly string AUDIO_FILE_NAME = "audio.mp3";
-        private bool isPreviewing;
-        private bool isRecording;
+        private bool isPreviewing; //remove
+        private bool isRecording; //remove
 
         #region HELPER_FUNCTIONS
 
@@ -124,13 +124,13 @@ namespace WebCamSample
             SetVideoButtonVisibility(Action.DISABLE);
             SetAudioButtonVisibility(Action.DISABLE);
 
-            isRecording = false;
-            isPreviewing = false;
+            isRecording = false; //want to remove
+            isPreviewing = false; // want to remove
         }        
 
         private async void Cleanup()
         {
-            if (mediaCapture != null)
+            if (mediaCapture != null) //media == some vlaue
             {
                 // Cleanup MediaCapture object
                 if (isPreviewing)
@@ -215,7 +215,7 @@ namespace WebCamSample
                 status.Text = "Camera preview succeeded";
 
                 // Enable buttons for video and photo capture
-                SetVideoButtonVisibility(Action.ENABLE);
+                // SetVideoButtonVisibility(Action.ENABLE);
 
                 // Enable Audio Only Init button, leave the video init button disabled
                 audio_init.IsEnabled = true;
@@ -296,7 +296,7 @@ namespace WebCamSample
                 mediaCapture.RecordLimitationExceeded += new Windows.Media.Capture.RecordLimitationExceededEventHandler(mediaCapture_RecordLimitExceeded);
 
                 // Enable buttons for audio
-                SetAudioButtonVisibility(Action.ENABLE);
+                //SetAudioButtonVisibility(Action.ENABLE);
 
                 // Enable Audio and video Only Init button
                 video_init.IsEnabled = true;
