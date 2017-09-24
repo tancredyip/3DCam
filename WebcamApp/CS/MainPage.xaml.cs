@@ -544,5 +544,10 @@ namespace WebCamSample
                 status.Text = e.Message;
             }
         }
+
+        private void playbackElement_MediaOpened(System.Object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
