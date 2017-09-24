@@ -15490,12 +15490,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Project\\samples\\WebcamApp\\CS\\WebCamSample.csproj",
+      "projectUniqueName": "D:\\Project\\3DCam\\WebcamApp\\CS\\WebCamSample.csproj",
       "projectName": "WebCamSample",
-      "projectPath": "D:\\Project\\samples\\WebcamApp\\CS\\WebCamSample.csproj",
-      "projectJsonPath": "D:\\Project\\samples\\WebcamApp\\CS\\project.json",
+      "projectPath": "D:\\Project\\3DCam\\WebcamApp\\CS\\WebCamSample.csproj",
+      "projectJsonPath": "D:\\Project\\3DCam\\WebcamApp\\CS\\project.json",
       "packagesPath": "C:\\Users\\tancr\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\samples\\WebcamApp\\CS\\obj\\",
+      "outputPath": "D:\\Project\\3DCam\\WebcamApp\\CS\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\tancr\\AppData\\Roaming\\NuGet\\NuGet.Config",

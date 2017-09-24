@@ -48,6 +48,8 @@ namespace WebCamSample
         private readonly string AUDIO_FILE_NAME = "audio.mp3";
         private bool isPreviewing; //remove
         private bool isRecording; //remove
+  
+  
 
         #region HELPER_FUNCTIONS
 
@@ -168,7 +170,9 @@ namespace WebCamSample
         private async void initVideo_Click(object sender, RoutedEventArgs e)
         {
             var timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromMilliseconds(5000);
             timer.Tick += Timer_Tick;
+            timer.Start();
             // Disable all buttons until initialization completes
 
             SetInitButtonVisibility(Action.DISABLE);
@@ -226,9 +230,9 @@ namespace WebCamSample
             }
         }
 
-        private void Timer_Tick(object sender, object e)
+        private  void Timer_Tick(object sender, object e)
         {
-            throw new NotImplementedException();
+            capturePhoto();
         }
 
         private void cleanup_Click(object sender, RoutedEventArgs e)
@@ -238,7 +242,10 @@ namespace WebCamSample
             SetAudioButtonVisibility(Action.DISABLE);
             Cleanup();            
         }
+        private void takePhoto_Click(object sender, RoutedEventArgs e)
+        {
 
+        }
         
         /// <summary>
         /// 'Initialize Audio Only' button action function
@@ -313,7 +320,7 @@ namespace WebCamSample
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private async void takePhoto_Click(object sender, RoutedEventArgs e)
+        private async void capturePhoto()
         {
             try
             {

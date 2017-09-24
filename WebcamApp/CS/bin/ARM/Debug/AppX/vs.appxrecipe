@@ -10,7 +10,7 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>cfce7aa4-a00b-4c48-a520-bfa0fd0e8a80</PackageIdentityName>
     <PackageIdentityPublisher>CN=MSFT</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Project\samples\WebcamApp\CS\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Project\3DCam\WebcamApp\CS\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>E656EB252BFBE6B6C29B17FE0AC5B5C2471DF8024CC5759C551C0143B8F98B12</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>cfce7aa4-a00b-4c48-a520-bfa0fd0e8a80_1.0.0.0_arm__1w720vyc4ccym</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>cfce7aa4-a00b-4c48-a520-bfa0fd0e8a80_1w720vyc4ccym!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>False</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-24T00:25:08.036</Modified>
+      <Modified>2017-09-24T13:47:34.597</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\WebCamSample.exe">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\WebCamSample.exe">
       <PackagePath>entrypoint\WebCamSample.exe</PackagePath>
-      <Modified>2017-09-24T00:25:07.423</Modified>
+      <Modified>2017-09-24T13:47:33.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tancr\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -451,60 +451,68 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-23T03:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\AForge.NET\Framework\Release\AForge.dll">
+      <PackagePath>AForge.dll</PackagePath>
+      <Modified>2013-07-16T03:04:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Emgu\emgucv-windesktop 3.2.0.2682\bin\Emgu.CV.World.dll">
+      <PackagePath>Emgu.CV.World.dll</PackagePath>
+      <Modified>2017-05-06T22:39:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-09-23T21:23:52.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-09-23T21:23:52.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-09-23T21:23:52.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-09-23T21:23:52.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-09-23T21:23:52.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-09-23T21:23:52.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-09-23T21:23:52.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-09-23T21:23:52.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\WebCamSample.xr.xml">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\WebCamSample.xr.xml">
       <PackagePath>WebCamSample.xr.xml</PackagePath>
-      <Modified>2017-09-23T23:19:11.560</Modified>
+      <Modified>2017-09-24T07:36:45.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-15T13:14:35.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-24T00:25:07.846</Modified>
+      <Modified>2017-09-24T11:58:06.537</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\Core\WebCamSample.exe">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\Core\WebCamSample.exe">
       <PackagePath>WebCamSample.exe</PackagePath>
-      <Modified>2017-09-24T00:25:08.028</Modified>
+      <Modified>2017-09-24T13:47:34.576</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

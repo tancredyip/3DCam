@@ -1,1 +1,1 @@
-D:\Project\samples\WebcamApp\CS\WebCamSample.csproj;x86
+D:\Project\3DCam\WebcamApp\CS\WebCamSample.csproj;x86

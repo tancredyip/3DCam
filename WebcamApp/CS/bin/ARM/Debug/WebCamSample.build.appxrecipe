@@ -10,22 +10,22 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>cfce7aa4-a00b-4c48-a520-bfa0fd0e8a80</PackageIdentityName>
     <PackageIdentityPublisher>CN=MSFT</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Project\samples\WebcamApp\CS\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Project\3DCam\WebcamApp\CS\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\WebCamSample.exe">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\WebCamSample.exe">
       <PackagePath>entrypoint\WebCamSample.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tancr\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -337,47 +337,53 @@
     <AppxPackagedFile Include="C:\Users\tancr\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\AForge.NET\Framework\Release\AForge.dll">
+      <PackagePath>AForge.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Emgu\emgucv-windesktop 3.2.0.2682\bin\Emgu.CV.World.dll">
+      <PackagePath>Emgu.CV.World.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\WebCamSample.xr.xml">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\WebCamSample.xr.xml">
       <PackagePath>WebCamSample.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Project\samples\WebcamApp\CS\bin\ARM\Debug\Core\WebCamSample.exe">
+    <AppxPackagedFile Include="D:\Project\3DCam\WebcamApp\CS\bin\ARM\Debug\Core\WebCamSample.exe">
       <PackagePath>WebCamSample.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
