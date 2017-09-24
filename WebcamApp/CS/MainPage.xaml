@@ -68,7 +68,12 @@
                     <Image x:Name="captureImage" Width="200" Height="200" Visibility="Visible"/>
                 </Canvas>
             </StackPanel>
-
+            <StackPanel>
+                <TextBlock Name="VideoTitle" Grid.Row="0" Grid.Column="2" Text="Last Recorded Video" Height="30" HorizontalAlignment="Center" Margin="0,20,0,0" Visibility="Visible"/>
+                <Canvas Name="VideoCanvas" Grid.Row="1" Grid.Column="2" Width="200" Height="200" Background="Gray" Margin="20,0,0,0" Visibility="Visible">
+                    <MediaElement x:Name="playbackElement" Width="200" Height="200" Visibility="Visible"/>
+                </Canvas>
+            </StackPanel>
             <StackPanel>
                 <!--<TextBlock  Grid.Row="0" Grid.Column="3" Text='Last Recorded Audio' Height='30' Margin='10,20,0,0'/>-->
                 <Canvas Grid.Row="1" Grid.Column="3" x:Name='playbackCanvas3' Width='0' Height ='0' Margin="0,0,0,0">
